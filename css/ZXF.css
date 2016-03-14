@@ -5,6 +5,9 @@ html,body{height: 100%;}
 @media (min-width:995px){
 	html,body{overflow: hidden;}
 }
+@media (max-width:995px){
+	.choose,.note,.pic{display: none;}
+}
 
 .banner{background-color: #ffd05c;}
 .brief{position: relative;}
