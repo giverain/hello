@@ -6,7 +6,10 @@ html,body{height: 100%;}
 	html,body{overflow: hidden;}
 }
 @media (max-width:995px){
-	.choose,.note,.pic{display: none;}
+	.choose,.delete-pic,.delete-note{display: none;}
+}
+@media (max-width:375px){
+	img{display: none;}	
 }
 
 .banner{background-color: #ffd05c;}
