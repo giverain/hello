@@ -1,0 +1,41 @@
+*{margin:0;padding:0;}
+ul,ol,li{list-style: none;}
+body,button,input,select,textarea,h1,h2,h3,h4,h5,h6{font-family: Microsoft YaHei,'宋体',Tahoma,Helvetica,Arial,"\5b8b\4f53",sans-serif;}
+html,body{height: 100%;}
+@media (min-width:995px){
+	html,body{overflow: hidden;}
+}
+
+.banner{background-color: #ffd05c;}
+.brief{position: relative;}
+.brief-text{position: absolute;top: 25%;left: 50%;margin-left: -140px;width: 280px;}
+.brief-text small{color: #80654d;}
+.brief-text h1{font-weight: 300;}
+.brief-text p{color: #80654d;font-size: 20px;}
+.banner h2{color: #80654d;margin-top: 40px;}
+.choose{margin-top: 50px;}
+.choose img{transition:all 0.4s ease-in-out;}
+.choose img:hover{transform: scale(1.1,1.1);background: #68bde7;border-radius: 50%;}
+
+.first{background-color: #1296f3;color: #fff;}
+.second{background-color: #56c681;color: #ffffff;}
+.third{background-color: #edb467;color: #b2262b;}
+.first-text,.second-text,.third-text{position: relative;min-height: 400px;}
+.text-content{position: absolute;top: 30%;font-size: 20px;}
+
+.contact{width: 100%;background: #fff;min-height: 150px;padding: 10px 20px;margin-top: 200px;}
+.contact p{text-indent: 150px;font-size: 16px;}
+
+.arrowtop{position: absolute;top: 10px;right: 10px;}
+.arrowbottom{position: absolute;bottom: 50px;right: 10px;}
+
+.banner,.first,.second,.third{min-height: 100%;position: relative;}
+.occupied{min-height: 150px;}
+.full{height: 100%;}
+
+.mg-top40{margin-top:40px;}
+
+#menu{margin: 0;padding: 0;position: fixed;left: 10px;top: 10px;list-style-type: none;z-index: 70;}
+#menu li{float: left;margin: 0 10px 0 0;font-size: 14px;}
+#menu a{float: left;padding: 10px 20px;background-color: #fff;color: #333;text-decoration: none;}
+#menu .active a{color: #fff;background-color: #666;}
